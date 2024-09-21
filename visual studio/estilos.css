@@ -1,0 +1,19 @@
+<!--Estilos-->
+
+    
+
+.jumbotron {
+    background-color: rgb(0, 255, 255);
+    color: azure;
+    padding: 100px 25px;
+    font-family: sans-serif;
+    text-align: center;
+}
+.container-fluid {
+    padding: 40px 50px;
+}
+
+.bg-grey {
+    background-color: darkgrey;
+}
+

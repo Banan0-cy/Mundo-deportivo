@@ -1,0 +1,58 @@
+border-bottom-right-radius:0px; /* Esta línea no debería estar sola. Asegúrate de que esté dentro de una regla. */
+
+.panel-footer h4 {
+    color: #0C32F5;
+    font-size: 15px;
+}
+
+@media screen and (min-width: 320px) {
+    img {
+        max-width: 100%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    img {
+        max-width: 150px;
+    }
+}
+
+@media screen and (min-width: 980px) {
+    img {
+        max-width: 225px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    img {
+        max-width: 300px;
+    }
+}
+.icono {  
+    color: #ff8c00;  
+    font-size: 20px;  
+}
+.menu {  
+    background-color: #483d8b;  
+    padding: 5px 0px 14px;  
+    border: 0;  
+    font-size: 12px;  
+    line-height: 1.42;  
+    letter-spacing: 2px;  
+    font-family: sans-serif;  
+}
+.menu .navbar-nav li a,   
+.menu .navbar-brand {  
+    color: #fff;  
+}  
+
+.menu .navbar-nav li a:hover,   
+.menu .navbar-nav li.active a {  
+    color: #f4511e;  
+    background-color: #fff;  
+}  
+
+.menu .navbar-default .menu .navbar-toggle {  
+    border-color: transparent;  
+    color: #fff;  
+}
